@@ -133,6 +133,10 @@ textarea:focus {
       font-size: 1.511em;
     }
   }
+  
+  @media (prefers-color-scheme: dark) {
+    background-color: #1e1e1e;
+  }
 }
 
 .menu-panel .panel-body-bottom .btn {
