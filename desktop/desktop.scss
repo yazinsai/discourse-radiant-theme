@@ -13,6 +13,17 @@
   padding-bottom: 5% !important;
   box-shadow: 0 8px 60px 0 rgba(103,151,255,.15), 0 12px 90px 0 rgba(103,151,255,.15);
   border-top: 8px solid $tertiary;
+  
+  @media (prefers-color-scheme: dark) {
+    background: #0e0a0a;
+    box-shadow: 0 8px 60px 0 rgb(5 12 28 / 15%), 0 12px 90px 0 rgb(30 30 30 / 15%);
+  }
+}
+
+.d-header {
+  @media (prefers-color-scheme: dark) {
+    background: #1e1e1e;
+  }
 }
 
 #main-outlet:after  {
